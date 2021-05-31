@@ -59,6 +59,11 @@ button[type=button]:hover {
   width: 75%;
   margin-top: 6px;
 }
+.col-50 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
 h1{
 	text-align: center;
 	text-transform: uppercase;
