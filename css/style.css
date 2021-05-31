@@ -62,6 +62,7 @@ button[type=button]:hover {
 h1{
 	text-align: center;
 	text-transform: uppercase;
+	font-style: italic;
 	
 }
 /* Clear floats after the columns */
