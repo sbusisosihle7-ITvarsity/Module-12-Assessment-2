@@ -9,12 +9,19 @@
     </head>
 
     <body>
-        <div>Please enter a valid API key.</div>
-        <form>
-            <input type="email" id="apiKey" name="apiKey"/><br>
-            <button type="button" id="submitApiKey" class="fas fa-check"> Submit</button>
-        </form>
-
+	 <div class="container">
+		<div>Please enter a valid API key.</div>
+		<form id="editForm">
+			<div class="row">
+				<div class="col-55">
+			    		<input type="email" id="apiKey" name="apiKey"/><br><br>
+				</div>
+			</div>
+			<div class="row">
+			    <button type="button" id="submitApiKey" class="fas fa-check"> Submit</button>
+			</div>
+		</form>
+	    </div>
         <script>
             let rootPath = "https://mysite.itvarsity.org/api/ContactBook/";
             document.getElementById("submitApiKey").addEventListener('click', setApiKey);
